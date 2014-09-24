@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Будильник" android:key="settings_alarm_clock" android:summary="Не включен">
+        <intent android:targetPackage="cn.com.smartdevices.bracelet" android:action="android.intent.action.MAIN" android:targetClass="cn.com.smartdevices.bracelet.ui.AlarmClockActivity" />
+    </Preference>
+    <Preference android:title="Шагомерт" android:key="settings_push_goals_progress" android:summary="50%,100%" />
+    <CheckBoxPreference android:title="Напоминание о низком заряде" android:key="settings_push_low_battery" android:defaultValue="true" />
+    <Preference android:title="Обновление ПО" android:key="settings_fw_upgrade" />
+    <Preference android:title="Сброс данных" android:key="settings_bracelet_reset" />
+    <Preference android:title="Обратная связь" android:key="settings_feedback" />
+    <Preference android:title="О приложении" android:key="settings_about">
+        <intent android:targetPackage="cn.com.smartdevices.bracelet" android:action="android.intent.action.MAIN" android:targetClass="cn.com.smartdevices.bracelet.activity.BraceletInfoActivity" />
+    </Preference>
+</PreferenceScreen>

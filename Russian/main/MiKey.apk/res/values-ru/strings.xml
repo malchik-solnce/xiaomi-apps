@@ -14,7 +14,7 @@
     <string name="note">Примечания:</string>
     <string name="add_to_contacts">Добавить в контакты</string>
     <string name="recognize">Распознать</string>
-    <string name="place_barcode_into_rectangle">Наведи QR-код или штрих-код внутрь видоискателя</string>
+    <string name="place_barcode_into_rectangle">Наведите видоискатель на QR или штрих-код</string>
     <string name="open_flash_error">Не удалось включить фонарик</string>
     <string name="close_flash_error">Не удалось выключить фонарик</string>
     <string name="scan_fail">Ошибка сканирования</string>
@@ -24,19 +24,24 @@
     <string name="scan_result">Результат сканирования</string>
     <string name="flash_lable">Вспышка</string>
     <string name="picker_lable">Галерея</string>
-	<string name="app_name">Кнопка</string>
+	<string name="app_name">MiKey</string>
+	<string name="tab_mikey">MiKey</string>
+    <string name="tab_mikey_sprite">Мастер MiKey</string>
+    <string name="notify_title_sprite">Мастер MiKey</string>
+    <string name="notify_content_sprite">Нажмите справа, чтобы удалить</string>
+    <string name="notify_ticker_sprite">Запущен виджет MiKey</string>
 	<string name="chooser_dust_cap">Кнопка (режим аксессуара)</string>
-    <string name="short_click_1">Одно нажатие</string>
-    <string name="short_click_2">Два нажатия</string>
-    <string name="short_click_3">Три нажатия</string>
-    <string name="short_click_4">Четыре нажатия</string>
-    <string name="short_click_5">Пять нажатий</string>
-    <string name="short_click_6">Шесть нажатий</string>
-    <string name="short_click_7">Семь нажатий</string>
-    <string name="short_click_8">8 нажатий</string>
-    <string name="short_click_9">9 нажатий</string>
-    <string name="short_click_10">10 нажатий</string>
-    <string name="long_click">Долгое нажатие</string>
+	<string name="click_type_0">Долгое нажатие</string>
+    <string name="click_type_1">Одно нажатие</string>
+    <string name="click_type_2">Два нажатия</string>
+    <string name="click_type_3">Три нажатия</string>
+    <string name="click_type_4">Четыре нажатия</string>
+    <string name="click_type_5">Пять нажатий</string>
+    <string name="click_type_6">Шесть нажатий</string>
+    <string name="click_type_7">Семь нажатий</string>
+    <string name="click_type_8">8 нажатий</string>
+    <string name="click_type_9">9 нажатий</string>
+    <string name="click_type_10">10 нажатий</string>
     <string name="action_open_flashlight">Включить фонарик</string>
     <string name="action_open_other_app">Другое приложение</string>
 	<string name="action_open_mi_route">Открыть Mi-роутер</string>
@@ -54,6 +59,8 @@
     <string name="action_open_or_close_motion">Переключить поворот экрана</string>
 	<string name="toast_open">Включено</string>
     <string name="toast_close">Отключено</string>
+	<string name="super_difficult_click">Долгое нажатие </string>
+    <string name="click_count_union"> наж.</string>
     <string name="action_open_wechat">Открыть WeChat</string>
     <string name="action_share_to_wechat">Отправить в WeChat</string>
     <string name="action_share_to_moment">Отправить на стену в WeChat</string>
@@ -73,32 +80,34 @@
     <string name="toggle_nfc">NFC</string>
 	<string name="action_open_camera360_capture">Открыть Camera360</string>
     <string name="action_open_camera360_edit">Редактор Camera360</string>
+	<string name="action_kuaidi">Вызвать такси</string>
 	<string name="action_toolbox">Открыть инструменты</string>
     <string name="action_phone">Открыть телефон</string>
-    <string name="category_app">Приложения</string>
-    <string name="category_system_settings">Настройки</string>
+	<string name="category_0">Приложения</string>
+    <string name="category_1">Переключатели</string>
+    <string name="category_2">Кнопки</string>
     <string name="action_close">Закрыть</string>
     <string name="delete_confirm">Удалить это действие?</string>
     <string name="delete_gesture">Удалить действие кнопки?</string>
     <string name="recommend">Рекомендуется</string>
     <string name="add">Добавить</string>
-    <string name="running_notification">Запущена кнопка</string>
-    <string name="click_to_open">Нажми, чтобы открыть</string>
+    <string name="running_notification">Запущен MiKey</string>
+    <string name="click_to_open">Нажмите, чтобы открыть</string>
     <string name="call_to">Позвонить</string>
     <string name="sms_to">Отправить сообщение</string>
     <string name="sms_template">Текст сообщения</string>
     <string name="confirm">OK</string>
     <string name="cancel">Отмена</string>
     <string name="delete">Удалить</string>
-    <string name="input_phone">Введи номер телефона</string>
+    <string name="input_phone">Введите номер телефона</string>
     <string name="earphone">Наушники</string>
     <string name="select_device">Что подключено?</string>
-    <string name="times"> раз</string>
-    <string name="rank_prefix">Общий рейтинг:</string>
+    <string name="times"> наж.</string>
+    <string name="rank_prefix">Рейтинг:</string>
     <string name="rank_suffix"> место</string>
     <string name="no_usage">...</string>
-    <string name="device_not_recognized">Ошибка распознавания. Вставь кнопку и повтори.</string>
-    <string name="clean_memory">Очистить память</string>
+    <string name="device_not_recognized">Ошибка распознавания. Вставьте кнопку и повторите.</string>
+    <string name="clean_memory">Память очищена</string>
     <string name="close_all">Закрыть все</string>
     <string name="sms_sent_done">Сообщение отправлено</string>
     <string name="cn_0">0</string>
@@ -116,11 +125,31 @@
     <string name="cn_1000">1000</string>
     <string name="cn_10000">10000</string>
     <string name="cn_100000000">100000000</string>
-    <string name="splash_tip">Вставь кнопку :)</string>
+    <string name="splash_tip">Вставьте кнопку :)</string>
     <string name="default_action_title">По умолчанию</string>
     <string name="action_home">Открыть главный экран</string>
+	<string name="action_key_direction">Стрелка</string>
+    <string name="action_key_enter">Ввод</string>
+    <string name="action_key_back">Назад</string>
+    <string name="action_key_back_long">Назад (долгое нажатие)</string>
+    <string name="action_key_home">Домой</string>
+    <string name="action_key_home_long">Домой (долгое нажатие)</string>
+    <string name="action_key_menu">Меню</string>
+    <string name="action_key_menu_long">Меню (долгое нажатие)</string>
+    <string name="action_key_power">Питание</string>
+    <string name="action_key_power_long">Питание (долгое нажатие)</string>
+    <string name="action_key_play_pause">Пауза</string>
+    <string name="action_key_play_next">Следующий</string>
+    <string name="action_key_play_prev">Предыдущий</string>
+    <string name="action_key_call">Набрать номер</string>
+    <string name="action_key_end_call">Завершить вызов</string>
     <string name="message_photo_end">Фото сохранено</string>
-    <string name="select_camera">Выбери камеру</string>
+    <string name="select_camera">Выберите камеру</string>
+	<string name="select_direction">Выберите направление</string>
+    <string name="key_direction_up">Вверх</string>
+    <string name="key_direction_down">Вниз</string>
+    <string name="key_direction_left">Влево</string>
+    <string name="key_direction_right">Вправо</string>
     <string name="front_camera">Передняя камера</string>
     <string name="back_camera">Задняя камера</string>
     <string name="write_pic_fail">Не удалось сохранить фото</string>
@@ -129,15 +158,15 @@
     <string name="app_not_installed">Приложение не установлено</string>
     <string name="setting_toolbar">Панель инструментов</string>
     <string name="setting_toolbar_desc">Отображать панель инструментов для быстрого доступа в уведомлениях</string>
-    <string name="setting_toolbar_tip">Чтобы добавить новую функцию, нажми на кнопку плюс
+    <string name="setting_toolbar_tip">Чтобы добавить новую функцию, нажмите на кнопку плюс
 	
-Нажми на кнопку функции, чтобы изменить ее 
+Нажмите на кнопку функции, чтобы изменить ее 
 
-Удерживай, чтобы удалить</string>
+Удерживайте, чтобы удалить</string>
     <string name="task_title_prefix">"Этап: %1$s 
 Функция: %2$s"</string>
     <string name="setting_feedback">Обратная связь</string>
-    <string name="setting_speed_desc">Выбери скорость работы кнопки. Чем меньше скорость, тем больше вероятности точности срабатывания.</string>
+    <string name="setting_speed_desc">Выберите скорость работы кнопки. Чем меньше скорость, тем больше вероятности точности срабатывания.</string>
     <string name="setting_speed_slow">Медленнее</string>
     <string name="setting_speed_quick">Быстрее</string>
     <string name="setting_vibrate_desc">Вибрировать при действиях (не работает при съемке и отключенном звуке)</string>
@@ -153,11 +182,11 @@
 одно нажатие - вкл/выкл музыку; 
 два - след. трек;
 четыре - пред. трек.
-Всегда отключай этот режим перед перезагрузкой и использованием кнопки. В противном случае это может привести к отсутствию звука.
+Всегда отключайте этот режим перед перезагрузкой и использованием кнопки. В противном случае это может привести к отсутствию звука.
 
 Режим аксессуара - кнопка просто служит для защиты гнезда наушников от пыли и грязи :)</string>
     <string name="setting_instant_photo_desc">Четкие изображения, но потребуется больше времени на обработку</string>
-    <string name="toolbox_outer_desc">Нажми на кнопку добавить или существующую функцию</string>
+    <string name="toolbox_outer_desc">Нажмите на кнопку добавить или существующую функцию</string>
     <string name="setting_speed_max_time">1000 м.с.</string>
     <string name="setting_speed_middle_time">500 м.с.</string>
     <string name="setting_speed_min_time">0 м.с.</string>
@@ -171,28 +200,42 @@
     <string name="file_delimiter">/</string>
     <string name="silent_mode_tip_main">Кнопка отключена</string>
     <string name="update_message">Обновление!</string>
-    <string name="silent_mode_tip_sub">Включи в настройках :)</string>
+    <string name="silent_mode_tip_sub">Включите в настройках :)</string>
     <string name="test_user_entry">Отзывы пользователей</string>
     <string name="goto_update">Обновить</string>
+	<string name="unsupport_title">Не поддерживается</string>
+    <string name="unsupport_content">Скачайте последнюю версию MIUI для разработчиков, чтобы воспользоваться этой функцией</string>
+	<string name="action_baidusearch">Поиск Baidu</string>
+    <string name="select_baidusearch">Поиск Baidu</string>
+    <string name="select_baiduvoicesearch">Голосовой поиск Baidu</string>
     <string name="faq_title">Справка</string>
     <string name="faq_speed_title">Почему так быстро откликается?</string>
-    <string name="faq_speed_text">На каждом устройстве кнопка откликается с разной скоростью. Ты можешь отрегулировать скорость нажатия в настройках под себя.</string>
+    <string name="faq_speed_text">На каждом устройстве кнопка откликается с разной скоростью. Вы можете отрегулировать скорость нажатия в настройках под себя.</string>
     <string name="faq_focus_title">Почему получаются размытые фото и медленная съемка?</string>
     <string name="faq_focus_text">Фокусировка перед снятием включена по умолчанию. Фокусировка и замер делает процесс съемки медленным, но при этом получаете более четкое изображение. Фокусировку можно отключить в настройках, но при этом возможны нечеткие фотографии.</string>
     <string name="faq_plug_title">Не получается подключить. Как быть?</string>
-    <string name="faq_plug_text">Чтобы не было проблемы распознавания кнопки, правильно вставляй ее. Держи кнопку за края и вставляй, чтобы избежать нажатия клавиши.</string>
+    <string name="faq_plug_text">Чтобы не было проблемы распознавания кнопки, правильно вставляйте ее. Возьмите кнопку за края и вставляйте, чтобы избежать нажатия клавиши.</string>
     <string name="faq_misreq_title">Некорректная работа кнопки. Что делать?</string>
-    <string name="faq_misreq_text">Выключи музыку, очисти RAM память и панель уведомлений. Вставь кнопку и выбери ее в приложении. Инженеры работают над устранением этой проблемы.</string>
+    <string name="faq_misreq_text">Выключите музыку, очистите RAM память и панель уведомлений. Вставьте кнопку и выберите ее в приложении. Инженеры работают над устранением этой проблемы.</string>
     <string name="faq_comp_title">На каких устройствах работает эта кнопка?</string>
     <string name="faq_comp_text">В настоящее время поддерживается только на системе MIUI V5. А также для использования необходимо скачать само приложение.</string>
     <string name="faq_voice_title">Не слышно собеседника. Что делать?</string>
-    <string name="faq_voice_text">Повторно вставь кнопку и не забудь выбрать MiKey</string>
+    <string name="faq_voice_text">Повторно вставьте кнопку и не забудьте выбрать MiKey</string>
     <string name="faq_slow_title">Почему медленно срабатывает?</string>
-    <string name="faq_slow_text">Проверь в настройках скорость работы, возможно она выставлена на 0. Задай подходящую для себя.</string>
+    <string name="faq_slow_text">Проверьте в настройках скорость работы, возможно она выставлена на 0. Задайте подходящую для себя.</string>
     <string name="faq_quni_title">Каков срок службы кнопки?</string>
     <string name="faq_quni_text">Кнопка способна выдержать до 30000 нажатий, взависимоти от типа нажатий и силы</string>
     <string name="faq_stat_title">Как скинуть статистику на 0?</string>
     <string name="faq_stat_text">Статистика количества нажатий кнопки сбрасывается раз в сутки</string>
     <string name="faq_vsm_title">Меры предосторожности</string>
-    <string name="faq_vsm_text">Убедись что ты вытащил кнопку прежде чем снять заднюю крышку!</string>
+    <string name="faq_vsm_text">Убедитесь что Вы вытащили кнопку прежде чем снять заднюю крышку!</string>
+	<string name="hint_long_press_del">Удерживайте, чтобы удалить</string>
+	<string name="hint_mikey_sprite">"Нажать кнопку можно по виджету на экране 
+Разговаривая, фотографируя, играя в игры… 
+При использовании виджета кнопки нельзя использовать другие функции кнопки"</string>
+    <string name="enable_mikey_sprite">Добавить виджет</string>
+    <string name="disable_mikey_sprite">Удалить виджет</string>
+    <string name="dialog_title_disable_mikey_sprite">Отключить мастер MiKey?</string>
+    <string name="splash_mikey_sprite">"Перетащите в любое место экрана виджет кнопки
+Нажмите виджет для вызова функции кнопки"</string>
 </resources>
