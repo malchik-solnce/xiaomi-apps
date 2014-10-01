@@ -24,7 +24,7 @@
     <string name="scan_result">Результат сканирования</string>
     <string name="flash_lable">Вспышка</string>
     <string name="picker_lable">Галерея</string>
-	<string name="app_name">MiKey</string>
+	<string name="app_name">Кнопка</string>
 	<string name="tab_mikey">MiKey</string>
     <string name="tab_mikey_sprite">Мастер MiKey</string>
     <string name="notify_title_sprite">Мастер MiKey</string>
@@ -208,6 +208,13 @@
 	<string name="action_baidusearch">Поиск Baidu</string>
     <string name="select_baidusearch">Поиск Baidu</string>
     <string name="select_baiduvoicesearch">Голосовой поиск Baidu</string>
+	<string name="action_search">Поиск</string>
+    <string name="search_cancel_text">Отмена</string>
+    <string name="search_go_text">Поиск</string>
+    <string name="search_baidu_text">Baidu</string>
+    <string name="search_taobao_text">Taobao</string>
+    <string name="search_iciba_text">Iciba</string>
+    <string name="search_select_title">Выберите поисковую систему</string>
     <string name="faq_title">Справка</string>
     <string name="faq_speed_title">Почему так быстро откликается?</string>
     <string name="faq_speed_text">На каждом устройстве кнопка откликается с разной скоростью. Вы можете отрегулировать скорость нажатия в настройках под себя.</string>
@@ -233,8 +240,8 @@
 	<string name="hint_mikey_sprite">"Нажать кнопку можно по виджету на экране 
 Разговаривая, фотографируя, играя в игры… 
 При использовании виджета кнопки нельзя использовать другие функции кнопки"</string>
-    <string name="enable_mikey_sprite">Добавить виджет</string>
-    <string name="disable_mikey_sprite">Удалить виджет</string>
+    <string name="enable_mikey_sprite">Включить</string>
+    <string name="disable_mikey_sprite">Отключить</string>
     <string name="dialog_title_disable_mikey_sprite">Отключить мастер MiKey?</string>
     <string name="splash_mikey_sprite">"Перетащите в любое место экрана виджет кнопки
 Нажмите виджет для вызова функции кнопки"</string>

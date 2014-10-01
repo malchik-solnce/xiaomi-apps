@@ -37,22 +37,28 @@
     "name" : "com.xiaomi.miclick.core.action.AudioRecorderAction",
     "sortId" : 6
   },
+  { "mutex" : [ "com.xiaomi.miclick.core.action.SearchAction"],
+    "groupId" : 1,
+    "groupName" : "Приложение",
+    "name" : "com.xiaomi.miclick.core.action.SearchAction",
+    "sortId" : 7
+  },
   { "mutex" : [ "com.xiaomi.miclick.core.action.BaiduSearchAction"],
       "groupId" : 1,
       "groupName" : "Приложение",
       "name" : "com.xiaomi.miclick.core.action.BaiduSearchAction",
-      "sortId" : 7
+      "sortId" : 8
     },
   { "groupId" : 1,
     "groupName" : "Приложение",
     "name" : "com.xiaomi.miclick.core.action.KuaidiAction",
-    "sortId" : 8
+    "sortId" : 9
   },
   { "groupId" : 1,
     "groupName" : "Приложение",
     "mutex" : [ "com.xiaomi.miclick.core.action.TorchAction" ],
     "name" : "com.xiaomi.miclick.core.action.Camera360CaptureAction",
-    "sortId" : 9
+    "sortId" : 10
   },
   { "dependence" : [ "com.xiaomi.miclick.core.action.Camera360CaptureAction",
         "com.xiaomi.miclick.core.action.CapturePhotoInstantAction",
@@ -61,54 +67,54 @@
     "groupId" : 1,
     "groupName" : "Приложение",
     "name" : "com.xiaomi.miclick.core.action.Camera360EditAction",
-    "sortId" : 10
+    "sortId" : 11
   },
   { "groupId" : 1,
     "groupName" : "Приложение",
     "mutex" : [ "com.xiaomi.miclick.core.action.TorchAction" ],
     "name" : "com.xiaomi.miclick.core.action.QrcodeAction",
-    "sortId" : 11
-  },
-  { "groupId" : 1,
-    "groupName" : "Приложение",
-    "name" : "com.xiaomi.miclick.core.action.MiliaoComposeShareAction",
     "sortId" : 12
   },
   { "groupId" : 1,
     "groupName" : "Приложение",
-    "name" : "com.xiaomi.miclick.core.action.WeChatFriendShareAction",
+    "name" : "com.xiaomi.miclick.core.action.MiliaoComposeShareAction",
     "sortId" : 13
   },
   { "groupId" : 1,
     "groupName" : "Приложение",
-    "name" : "com.xiaomi.miclick.core.action.WeChatTimeLineShareAction",
+    "name" : "com.xiaomi.miclick.core.action.WeChatFriendShareAction",
     "sortId" : 14
   },
   { "groupId" : 1,
     "groupName" : "Приложение",
-    "name" : "com.xiaomi.miclick.core.action.WeiboShareAction",
+    "name" : "com.xiaomi.miclick.core.action.WeChatTimeLineShareAction",
     "sortId" : 15
   },
   { "groupId" : 1,
     "groupName" : "Приложение",
-    "name" : "com.xiaomi.miclick.core.action.CallAction",
+    "name" : "com.xiaomi.miclick.core.action.WeiboShareAction",
     "sortId" : 16
   },
   { "groupId" : 1,
     "groupName" : "Приложение",
-    "name" : "com.xiaomi.miclick.core.action.SMSAction",
+    "name" : "com.xiaomi.miclick.core.action.CallAction",
     "sortId" : 17
+  },
+  { "groupId" : 1,
+    "groupName" : "Приложение",
+    "name" : "com.xiaomi.miclick.core.action.SMSAction",
+    "sortId" : 18
   },
   { "mutex" : [ "com.xiaomi.miclick.core.action.TorchAction"],
       "groupId" : 1,
       "groupName" : "Приложение",
       "name" : "com.xiaomi.miclick.core.action.VideoRecorderAction",
-      "sortId" : 18
+      "sortId" : 19
     },
   { "groupId" : 1,
     "groupName" : "Приложение",
     "name" : "com.xiaomi.miclick.core.action.OpenAppAction",
-    "sortId" : 19
+    "sortId" : 20
   },
   { "groupId" : 2,
     "groupName" : "Переключатели",
